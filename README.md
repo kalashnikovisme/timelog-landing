@@ -33,11 +33,11 @@ You can update the color theme in two ways:
 
 This template consists of static files (HTML, CSS, JS), so it’s ready to go. You can host it on any static hosting service — like Firebase, Netlify, Vercel, GitHub Pages, Cloudflare Pages, or your own server. Just upload the files and you’re live.
 
-## Automated Deployment with Cloudflare
+## Automated Deployment with Cloudflare Pages
 
-This repository includes GitHub Actions workflows for automated deployment to Cloudflare Pages or Cloudflare Workers.
+This repository includes a GitHub Actions workflow for automated deployment to Cloudflare Pages.
 
-**Cloudflare Pages** (Recommended for static sites):
+**Cloudflare Pages:**
 - Automatic deployments on every push to main
 - Branch preview deployments
 - Free SSL and global CDN

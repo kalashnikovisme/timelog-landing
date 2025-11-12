@@ -21,7 +21,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: devtool-template
+          projectName: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
           directory: .
           # Optional: Enable branch deployments
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
