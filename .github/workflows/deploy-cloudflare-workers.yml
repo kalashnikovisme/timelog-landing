@@ -12,6 +12,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     name: Deploy to Cloudflare Workers
     steps:
       - name: Checkout
