@@ -31,4 +31,15 @@ You can update the color theme in two ways:
 
 # How do I publish my website?
 
-This template consists of static files (HTML, CSS, JS), so it’s ready to go. You can host it on any static hosting service — like Firebase, Netlify, Vercel, GitHub Pages, or your own server. Just upload the files and you’re live.
+This template consists of static files (HTML, CSS, JS), so it’s ready to go. You can host it on any static hosting service — like Firebase, Netlify, Vercel, GitHub Pages, Cloudflare Pages, or your own server. Just upload the files and you’re live.
+
+## Automated Deployment with Cloudflare Pages
+
+This repository includes a GitHub Actions workflow for automated deployment to Cloudflare Pages.
+
+**Cloudflare Pages:**
+- Automatic deployments on every push to main
+- Branch preview deployments
+- Free SSL and global CDN
+
+See [`.github/CLOUDFLARE_DEPLOYMENT.md`](.github/CLOUDFLARE_DEPLOYMENT.md) for complete setup instructions.
