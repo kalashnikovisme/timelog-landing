@@ -28,8 +28,8 @@
   - Saturation controls how much of accent color will be mixed into text, background, and surface colors.
   - Contrast controls how contrast the text colors will be.
   */
-  --theme-hue: 295;
-  --theme-saturation: 0.03; /* 0...1 where 0 means grayscale colors; 1 means fully saturated colors */
+  --theme-hue: 243.5;
+  --theme-saturation: 1; /* 0...1 where 0 means grayscale colors; 1 means fully saturated colors */
   --theme-contrast: 0.69; /* 0...1 where 0 means low contrast; 1 means high contrast, black-n-white in fact */
 
   /* Fonts */
